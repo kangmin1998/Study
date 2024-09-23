@@ -9,7 +9,7 @@ int StringCount(const char* const _Str)
 
     while (_Str[Count])
     {
-        Count++;
+        Count++;  // Count += 1;
     }
 
     return Count;
@@ -20,7 +20,6 @@ int main()
     // [B][B][B][B][0]
 
     int Count = strlen("BBBB");
-    int MyCount = strlen("BBBB");
 
     int a = 0;
 
