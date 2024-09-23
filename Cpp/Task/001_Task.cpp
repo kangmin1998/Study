@@ -22,7 +22,7 @@ int NumberCount(int _Value)
 
     }
 
-    return 0;
+    return Result;
 }
 
 // 해도 되고 안해도 됩니다.
@@ -31,6 +31,7 @@ int NumberCount(int _Value)
 // 숫자를 문자열로 만드는 함수.
 void NumberToString(char* Buffer, int BufferSize, int _Value)
 {
+
     return;
 }
 
@@ -48,6 +49,7 @@ int main()
     char Buffer[100] = { 0 };
 
     NumberToString(Buffer, 100, 3712);
+
     // Buffer == "3712"
 
 
