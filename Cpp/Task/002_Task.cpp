@@ -50,7 +50,9 @@ public:
     int GetDamage() const
     {
         // minAtt ~ MaxAtt 사이의 숫자가 리턴되는 함수를 만드세요.
-       return MinAtt + rand() % (MaxAtt - MinAtt + 1) + MinAtt;
+        srand(time(nullptr));
+       int a = rand() % (MaxAtt - MinAtt + 1) + MinAtt;
+       return a;
       
     }
       
@@ -104,6 +106,7 @@ int main()
 
     Player NewPlayer;
     Monster NewMonster;
+    FightUnit NewFightUnit;
     NewMonster.DamageLogic(NewPlayer);
 
     // NewPlayer.
