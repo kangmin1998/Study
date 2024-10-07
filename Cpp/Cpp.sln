@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{320679E6-ACEA-4A9B-B77A-57A9D625B0AD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cpp", "Cpp\Cpp.vcxproj", "{C729B4DA-2F75-431F-8D0F-E3CADB636483}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseSystem", "..\..\..\GM2\CPP\BaseSystem\BaseSystem.vcxproj", "{0ACEBF45-8515-409B-99DE-190CD392A6FC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{8B150216-F7C8-4F0B-AAB1-CED1CFEC9859}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG003ClassFile", "..\..\..\GM2\CPP\TextRPG003ClassFile\TextRPG003ClassFile.vcxproj", "{ADAC5A93-943B-4584-B3F9-66AD5DC26F57}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseSystem", "..\BaseSystem\BaseSystem.vcxproj", "{0ACEBF45-8515-409B-99DE-190CD392A6FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextRPG003ClassFile", "..\TextRPG003ClassFile\TextRPG003ClassFile.vcxproj", "{ADAC5A93-943B-4584-B3F9-66AD5DC26F57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Debug|x64.ActiveCfg = Debug|x64
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Debug|x64.Build.0 = Debug|x64
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Debug|x86.ActiveCfg = Debug|Win32
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Debug|x86.Build.0 = Debug|Win32
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Release|x64.ActiveCfg = Release|x64
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Release|x64.Build.0 = Release|x64
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Release|x86.ActiveCfg = Release|Win32
+		{C729B4DA-2F75-431F-8D0F-E3CADB636483}.Release|x86.Build.0 = Release|Win32
 		{0ACEBF45-8515-409B-99DE-190CD392A6FC}.Debug|x64.ActiveCfg = Debug|x64
 		{0ACEBF45-8515-409B-99DE-190CD392A6FC}.Debug|x64.Build.0 = Debug|x64
 		{0ACEBF45-8515-409B-99DE-190CD392A6FC}.Debug|x86.ActiveCfg = Debug|Win32
@@ -38,9 +48,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0ACEBF45-8515-409B-99DE-190CD392A6FC} = {320679E6-ACEA-4A9B-B77A-57A9D625B0AD}
+		{0ACEBF45-8515-409B-99DE-190CD392A6FC} = {8B150216-F7C8-4F0B-AAB1-CED1CFEC9859}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {510A4C89-3D72-4B8B-A9EF-E9BFE46FE59F}
+		SolutionGuid = {0B984A2E-4A37-457E-8F89-7452AB52A2AE}
 	EndGlobalSection
 EndGlobal
