@@ -6,6 +6,24 @@
 
 
 
+
+void BlackSmith::TryUpGrade(UPlayer& _Player)
+{
+
+	int CurGold = _Player.GetGold();
+	int CurUpgrade = 
+
+
+
+
+}
+
+
+
+
+
+
+
 void BlackSmith::InPlayer(class UPlayer& _Player/*, int& Result*/)
 {
 	if (nullptr == ParentZone)

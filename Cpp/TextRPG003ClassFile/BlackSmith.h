@@ -4,7 +4,7 @@
 class BlackSmith
 {
 public:
-	// 안넣어주면 생성이 안되.
+
 	//BlackSmith(UZone& _ParentZone)
 	//	: ParentZone(_ParentZone)
 	//{
@@ -12,6 +12,7 @@ public:
 	//}
 
 
+	void TryUpGrade(class UPlayer& _Player);
 
 	void InPlayer(class UPlayer& _Player/*, int& Result*/);
 
